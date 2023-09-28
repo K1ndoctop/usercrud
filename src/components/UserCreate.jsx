@@ -7,7 +7,7 @@ const UserCreate = () => {
     const [user, setUser] = useState({
         name: '',
         position: '',
-        expirience: ''
+        expirience: '',
     });
 
     const navigate = useNavigate();
@@ -18,7 +18,7 @@ const UserCreate = () => {
             if(!user[key]) return alert('Some inputs are empty!');
         };
 
-        dispatch(createUser(user));
+        dispatch(createUser({...user,favorites:false}));
         navigate('/');
     };
 

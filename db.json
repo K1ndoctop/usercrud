@@ -1,10 +1,50 @@
 {
   "users": [
     {
-      "name": "asdd",
-      "position": "sadad",
-      "expirience": "asda",
-      "id": 1
+      "name": "asda",
+      "position": "sdasd",
+      "expirience": "asd",
+      "favorites": true,
+      "id": 2
+    },
+    {
+      "name": "asdasda213123132",
+      "position": "dsda123",
+      "expirience": "sda",
+      "favorites": true,
+      "id": 3
+    }
+  ],
+  "favorites": [
+    {
+      "id": "favorite-1",
+      "user": {
+        "name": "asdd",
+        "position": "sadad",
+        "expirience": "asda",
+        "favorites": true,
+        "id": 1
+      }
+    },
+    {
+      "id": "favorite-3",
+      "user": {
+        "name": "asdasda213123132",
+        "position": "dsda123",
+        "expirience": "sda",
+        "favorites": true,
+        "id": 3
+      }
+    },
+    {
+      "id": "favorite-2",
+      "user": {
+        "name": "asda",
+        "position": "sdasd",
+        "expirience": "asd",
+        "favorites": true,
+        "id": 2
+      }
     }
   ]
 }
